@@ -1,14 +1,9 @@
 # java-tts
 一个基于Java的粤语发音TTS,文字转语音.
 
-## 安装
-1.首先安装你的Java环境
-2.运行src\org\lib\speech\test\Music.java
-3.部署好项目所需要的包和路径
-4.部署到Tomcat
 
-## 测试开发
-你可以很简单的使用它，初次尝试的时候你可以建立一个如下的 Test.java文件来测试：
+## 安装你的Java环境
+你可以很简单的使用它，初次尝试的时候你可以建立一个如下的 src\org\lib\speech\test\Test.java文件来测试：
 ```Java
 import java.io.File;
 import java.io.IOException;
@@ -69,3 +64,27 @@ for (int i = 0; i < obj.length; i++) {
 }
 }
 ```
+## 使用http方式访问
+运行 music.java,将你的src下面文件打包到Tomcat webapps
+run bin/startup.bat
+
+![效果图](https://raw.githubusercontent.com/ekk0/java-tts/tree/master/music.png) 
+
+## 安装注意事项
+jyutping-wong-44100-v7 音乐文件目录
+music 生产目录发音文件
+lib 下面为jar包
+properties 
+src\org\lib\speech\analysis\SentencesConverter.java 是中文 分词的数字,二次开发需注意
+src\org\lib\speech\analysis\SmartSegment.java 是中文 分词的字母
+>>注意文件存放的位置
+
+基于Vekou开源项目
+网站 : http://code.google.com/p/vekou/
+
+
+
+
+
+
+
