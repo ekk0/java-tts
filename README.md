@@ -9,7 +9,7 @@
 
 ## 测试开发
 你可以很简单的使用它，初次尝试的时候你可以建立一个如下的 Test.java文件来测试：
-
+```Java
 import java.io.File;
 import java.io.IOException;
 import java.util.Iterator;
@@ -53,9 +53,9 @@ try {
 List<Object[]> list = engine.getPronounceElements(sentences);
 Iterator<Object[]> iter = list.iterator();
 while (iter.hasNext()) {
-Object[] obj = iter.next();
-if (obj[0] instanceof File) {
-for (int i = 0; i < obj.length; i++) {
+	Object[] obj = iter.next();
+	if (obj[0] instanceof File) {
+	for (int i = 0; i < obj.length; i++) {
 	File file = (File) obj[i];
 	System.out.print(file.getName() + " ");
 }
@@ -68,3 +68,4 @@ for (int i = 0; i < obj.length; i++) {
 }
 }
 }
+```
