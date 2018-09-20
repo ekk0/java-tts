@@ -71,7 +71,7 @@ for (int i = 0; i < obj.length; i++) {
 
 来听一下"我喜欢github"效果如何:
 https://raw.githubusercontent.com/ekk0/java-tts/master/music.mp3
-(将地址复制到浏览器下载用播放器播放)
+将地址复制到浏览器下载用播放器播放
 
 ##稳定性如何
 2017年开始运行,目录没发现问题
