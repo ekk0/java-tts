@@ -67,7 +67,9 @@ for (int i = 0; i < obj.length; i++) {
 安装Tomcat,运行music.java,将你的src下面文件打包到Tomcat webapps
 访问方式:http://localhost:8080:/java-tts/call?text=发音的文字
 ![效果图](https://raw.githubusercontent.com/ekk0/java-tts/master/music.png) 
-!来听一下"我喜欢github"效果如何:(https://raw.githubusercontent.com/ekk0/java-tts/master/music.mp3)
+
+!来听一下"我喜欢github"效果如何:
+![mp3]https://raw.githubusercontent.com/ekk0/java-tts/master/music.mp3
 
 ##稳定性如何
 稳定运行大半年,目录没发现问题
