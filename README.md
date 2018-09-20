@@ -73,7 +73,7 @@ for (int i = 0; i < obj.length; i++) {
 https://raw.githubusercontent.com/ekk0/java-tts/master/music.mp3
 将地址复制到浏览器下载用播放器播放
 
-##稳定性如何
+## 稳定性如何
 2017年开始运行,目录没发现问题
 
 ## 安装注意事项
@@ -85,9 +85,9 @@ src\org\lib\speech\analysis\SentencesConverter.java 是中文 分词的数字,�
 src\org\lib\speech\analysis\SmartSegment.java 是中文 分词的字母
 运行时注意文件存放的位置
 
-##基于Vekou开源项目
+## 基于Vekou开源项目
 网站 : http://code.google.com/p/vekou/  (需翻墙)
->项目还有许多待改进的地方，欢迎小伙伴提交pr，我会将大家完成的工作展示在README中,开源项目需要你!
+> 项目还有许多待改进的地方，欢迎小伙伴提交pr，我会将大家完成的工作展示在README中,开源项目需要你!
 
 
 
