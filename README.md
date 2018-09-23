@@ -86,6 +86,7 @@ src\org\lib\speech\analysis\SmartSegment.java 是中文 分词的字母
 运行时注意文件存放的位置
 
 ## 基于Vekou开源项目
+
 网站 : http://code.google.com/p/vekou/  (需翻墙)
 > 项目还有许多待改进的地方，欢迎小伙伴提交pr，我会将大家完成的工作展示在README中,开源项目需要你!
 
