@@ -37,7 +37,7 @@ public class Music extends HttpServlet {
 
 	public static void sayPlay (String sentences,HttpServletRequest request,HttpServletResponse response) throws Exception{
         //获取tomcat 路径
-		String ROOT = System.getProperty("catalina.home")+"/webapps/JavaWeb";
+		String ROOT = System.getProperty("catalina.home")+"/webapps/java-tts";
 
 		int num = RandomNum();
 		Calendar now = Calendar.getInstance();
@@ -279,14 +279,14 @@ public class Music extends HttpServlet {
             String sentences = "阿法第三方";
 			int num = RandomNum();
 			Calendar now = Calendar.getInstance();
-			String rootDir = ROOT+"/webapps/JavaWeb/music/";
+			String rootDir = ROOT+"/webapps/java-tts/music/";
 			//String timeDir = ""+(now.get(Calendar.YEAR))  + (now.get(Calendar.MONTH) + 1) +(now.get(Calendar.DAY_OF_MONTH)) + "/" + (now.get(Calendar.HOUR_OF_DAY)) +"/";
 			//System.out.println(rootDir+timeDir);
 			//File file_mk = new File(rootDir+timeDir+num+"/");
 
 
 			List<String> listArr = new ArrayList<String>();
-			String dir = ROOT+"/webapps/JavaWeb/data/jyutping-wong-44100-v7/"; //读取wav文件路径
+			String dir = ROOT+"/webapps/java-tts/data/jyutping-wong-44100-v7/"; //读取wav文件路径
 			//String data_dir = timeDir+num+"/"; //生成文件路径
 			//createDir(rootDir+timeDir+num);
 			String localhost_dir = rootDir+num+".wav"; //生成的wav语音包
