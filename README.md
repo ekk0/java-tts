@@ -78,17 +78,17 @@ https://raw.githubusercontent.com/ekk0/java-tts/master/music.mp3
 
 ## 安装注意事项
 jyutping-wong-44100-v7 音乐文件目录
-music 生成目录发音文件
-lib 下面为jar包
+music 生成目录web发音文件
+lib 下面为jar包,想踩坑你可以试试其他版本的包..
 properties 为配置文件
 src\org\lib\speech\analysis\SentencesConverter.java 是中文 分词的数字,二次开发需注意
 src\org\lib\speech\analysis\SmartSegment.java 是中文 分词的字母
-运行时注意文件存放的位置
+>运行时注意文件存放的位置
 
-## 基于Vekou开源项目
+## 基于Vekou开源项目,尊重原作者劳动成果
 
 网站 : http://code.google.com/p/vekou/  (需翻墙)
-> 项目还有许多待改进的地方，欢迎小伙伴提交pr，我会将大家完成的工作展示在README中,开源项目需要你!
+> 项目还有许多待改进的地方，欢迎小伙伴提交pr,开源项目需要你!
 
 
 
