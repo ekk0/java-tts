@@ -88,7 +88,10 @@ src\org\lib\speech\analysis\SmartSegment.java 是中文 分词的字母
 ## 基于Vekou开源项目,尊重原作者劳动成果
 
 网站 : http://code.google.com/p/vekou/  (需翻墙)
-> 项目还有许多待改进的地方，欢迎小伙伴提交pr,开源项目需要你!
+##修改的地方
+#增加英文发音
+#增加了webapi方式访问
+#修复了一些已知的bug
 
 
 
