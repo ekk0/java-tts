@@ -91,9 +91,9 @@ src\org\lib\speech\analysis\SmartSegment.java 是中文 分词的字母
 
 ## 修改的地方
 
-> 增加英文发音
-> 增加了webapi方式访问
-> 修复了一些已知的bug
+1. 增加英文发音
+2. 增加了webapi方式访问
+3. 修复了一些已知的bug
 
 
 
