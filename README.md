@@ -77,13 +77,13 @@ https://raw.githubusercontent.com/ekk0/java-tts/master/music.mp3
 2017年开始运行,目录没发现问题
 
 ## 安装注意事项
-jyutping-wong-44100-v7 音乐文件目录
-music 生成目录web发音文件
-lib 下面为jar包,想踩坑你可以试试其他版本的包..
-properties 为配置文件
-src\org\lib\speech\analysis\SentencesConverter.java 是中文 分词的数字,二次开发需注意
-src\org\lib\speech\analysis\SmartSegment.java 是中文 分词的字母
->运行时注意文件存放的位置
+jyutping-wong-44100-v7 音乐文件目录  
+music 生成目录web发音文件  
+lib 下面为jar包,想踩坑你可以试试其他版本的包..  
+properties 为配置文件  
+src\org\lib\speech\analysis\SentencesConverter.java 是中文 分词的数字,二次开发需注意  
+src\org\lib\speech\analysis\SmartSegment.java 是中文 分词的字母  
+>运行时注意文件存放的位置  
 
 ## 基于Vekou开源项目,尊重原作者劳动成果
 
