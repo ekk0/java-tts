@@ -1,5 +1,5 @@
 # java-tts
-一个基于Java的粤语发音TTS,文字转语音.
+一个基于Java的粤语发音TTS,文字转语音,通过web访问音频流方式输出。
 
 ## 安装你的Java环境
 你可以很简单的使用它，初次尝试的时候你可以建立一个如下的 src\org\lib\speech\test\Test.java文件来测试：
@@ -74,7 +74,7 @@ https://raw.githubusercontent.com/ekk0/java-tts/master/music.mp3
 将地址复制到浏览器下载用播放器播放
 
 ## 稳定性如何
-2017年开始运行,目录没发现问题
+2017年开始运行,目录没发现问题,一般业务使用,大量并发自行脑补
 
 ## 安装注意事项
 jyutping-wong-44100-v7 音乐文件目录  
@@ -84,6 +84,10 @@ properties 为配置文件
 src\org\lib\speech\analysis\SentencesConverter.java 是中文 分词的数字,二次开发需注意  
 src\org\lib\speech\analysis\SmartSegment.java 是中文 分词的字母  
 >运行时注意文件存放的位置  
+
+## 一些坑
+lame linux下运行和window下运行调用方法是不一样的,具体修改Music.java
+Tomcat Tomcat中文乱码解决方案(自行百度,很简单的)
 
 ## 基于Vekou开源项目,尊重原作者劳动成果
 
