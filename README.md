@@ -86,8 +86,8 @@ src\org\lib\speech\analysis\SmartSegment.java 是中文 分词的字母
 >运行时注意文件存放的位置  
 
 ## 一些坑
-lame linux下运行和window下运行调用方法是不一样的,具体修改Music.java
-Tomcat Tomcat中文乱码解决方案(自行百度,很简单的)
+lame linux下运行和window下运行调用方法是不一样的,具体修改Music.java  
+Tomcat Tomcat中文乱码解决方案(自行百度,很简单的)  
 
 ## 基于Vekou开源项目,尊重原作者劳动成果
 
