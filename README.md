@@ -71,22 +71,22 @@ for (int i = 0; i < obj.length; i++) {
 
 来听一下"我喜欢github"效果如何:
 https://raw.githubusercontent.com/ekk0/java-tts/master/music.mp3
-将地址复制到浏览器下载用播放器播放
+将地址复制到浏览器新建下载,然后用播放器播放.
 
 ## 稳定性如何
-2017年开始运行,目录没发现问题,一般业务使用,大量并发自行脑补
-
+2017年线上开始运行至今,目前没发现问题,一般业务足够使用,大量并发自行改进.或者去花钱去购买,但是太贵了...
+某讯十几万一年,调用次数四千万次...
 ## 安装注意事项
-jyutping-wong-44100-v7 音乐文件目录  
-music 生成目录web发音文件  
-lib 下面为jar包,想踩坑你可以试试其他版本的包..  
-properties 为配置文件  
-src\org\lib\speech\analysis\SentencesConverter.java 是中文 分词的数字,二次开发需注意  
-src\org\lib\speech\analysis\SmartSegment.java 是中文 分词的字母  
+jyutping-wong-44100-v7 	音乐文件目录  
+music 			生成目录web发音文件  
+lib	 		下面为jar包,想踩坑你可以试试其他版本的包..  
+properties 		为配置文件  
+src\org\lib\speech\analysis\SentencesConverter.java 	是中文 分词的数字,二次开发需注意  
+src\org\lib\speech\analysis\SmartSegment.java 		是中文 分词的字母  
 >运行时注意文件存放的位置  
 
 ## 一些坑
-lame linux下运行和window下运行调用方法是不一样的,具体修改Music.java  
+lame linux下运行和window下运行调用方法是不一样的,这里用的是linux,具体修改Music.java 
 Tomcat Tomcat中文乱码解决方案(自行百度,很简单的)  
 
 ## 基于Vekou开源项目,尊重原作者劳动成果
