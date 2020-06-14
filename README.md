@@ -73,6 +73,8 @@ for (int i = 0; i < obj.length; i++) {
 https://raw.githubusercontent.com/ekk0/java-tts/master/music.mp3
 将地址复制到浏览器新建下载,然后用播放器播放.
 
+###如果你是一个Java小白,那么看看这篇文章 https://www.cnblogs.com/wtcl/p/8148203.html
+
 ## 稳定性如何
 2017年线上开始运行至今,目前没发现问题,一般业务足够使用,大量并发自行改进.或者去花钱去购买,但是太贵了...
 某讯十几万一年,调用次数四千万次...
